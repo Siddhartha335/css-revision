@@ -1,0 +1,315 @@
+/* .text {
+  width:200px;
+/*   height:1000px; */
+/*   border:2px solid black; */
+/*   color:red;
+  text-align:justify; */
+/*   direction:rtl; */
+/*   text-decoration:line-through; */
+/*   text-transform:lowercase; */
+/*    word-wrap:break-word; */
+/*   line-height:30px; */
+/*   text-indent:50px; */
+/*   word-spacing:10px; */
+
+/* } */
+
+/*   #shadow {
+  font-size:70px;
+    text-shadow: 3px -10px 5px red;
+}  */
+
+/* #text{
+  width:500px;
+  border:1px solid black;
+  writing-mode:vertical-rl;
+} */
+
+/* a {
+  text-decoration:none;
+}
+
+a:link {
+  color:yellow;
+}
+
+a:visited {
+  color:black
+}
+
+
+a:hover {
+  color:orange;
+}
+
+a:active {
+  color:red;
+} */
+
+/* h1 {
+  font-weight:400;
+}
+
+p {
+  font-size:20px;
+  font-variant: small-caps;
+  font-family: 'Poppins', sans-serif;
+  font-weight:600;
+/*   font-style:italic; */
+/* }  */
+
+/* html {
+  font-size:14px;
+}
+
+
+#parent {
+  font-size:10vw;
+}
+
+#child { 
+  font-size:2rem;
+}  */
+
+/* div {
+  border:1px solid red;
+/*   cursor:not-allowed; */
+/*   width:300px;
+  background-color:gray;
+  margin:60px;
+  padding:20px;
+  box-shadow:10px 10px 5px 3px green, -10px 10px 5px 3px red; */
+/* } */
+
+/* #color-box {
+  height:200px;
+  width:500px;
+  background-color:green;
+  margin-bottom:25px;
+/*   opacity:0.5 */
+/* } */
+
+/* #red-box {
+   height:200px;
+  width:400px;
+  background-color:red;
+  margin-bottom:25px;
+  opacity:0.5;
+  margin-top:-100px;
+} */
+
+/* img {
+  filter:bl;
+} */
+
+/* div {
+  height:500px;
+  border:1px solid red;
+  background-image:radial-gradient( circle,green 20%,blue 30%,red 50%);
+}
+  */
+
+/* #overflow {
+  background-color: whitesmoke;
+  border:1px solid red;
+  width:500px;
+  height:100px;
+/*   overflow-x: hidden;
+  overflow-y:scroll; */
+/*   overflow:auto;
+  resize:both; */
+/* } */
+
+/* ul {
+/*   list-style-image:url("https://picsum.photos/10/5"); */
+/*   list-style-position:inside; */
+/*   list-style-type:none;
+   float:right;
+} */
+
+/* ol { */
+/*   list-style-type:decimal-leading-zero; */
+/*   list-style-type:none;
+  float:right; */
+/* } */
+
+/* li {
+    display:inline-block;
+    margin-right:6px; */
+/* } */
+
+/* table,caption {
+  border:1px solid black;
+  border-collapse:collapse;
+  border-spacing:15px;
+  empty-cells:hide;
+  table-layout:auto;
+  width:300px;
+}
+
+/* caption {
+  caption-side:bottom;
+} */
+
+/* tr,th,td {
+   border:1px solid black;
+  height:45px;
+  padding:5px;
+  text-align:center;
+  vertical-align:middle; */
+/* }  */
+
+/* :root{
+  --primary-color:red;
+  --button-color:lightpink;
+    --text-xolor:black;
+}
+
+#func {
+  background-color:var(--primary-color);
+  height:200px;
+  width:calc(100%-200px);
+  margin-bottom:30px;
+}
+
+a {
+  text-decoration:none;
+  color:black;
+  border:1px solid var(--text-color); 
+  padding:5px 8px;
+  margin:20px ;
+  background-color:var(--button-color);
+} */
+
+/* * {
+  box-sizing:border-box;
+}
+
+
+#div1 {
+  background-color:violet;
+  width:600px;
+  height:150px;
+}
+
+#div2 {
+  background-color:purple;
+  width:600px;
+  height:150px;
+  padding:50px;
+  border:10px solid black;
+} */
+
+/* #green {
+  color:green;
+}
+
+#blue {
+  color:red;
+}
+
+#initial {
+color:initial;
+}
+
+#inherit {
+  color:inherit;
+} */
+
+/* img {
+  border:1px solid red;
+  width:500px;
+  height:400px;
+  object-fit:contain;
+  object-position:top left;
+} */
+
+/* li:nth-last-child(2) {
+  color:red;
+} 
+
+input:focus {
+  border:5px solid red;
+} */
+
+/* p::first-line{
+  font-size:35px;
+  color:red;
+}
+
+h1::before {
+  content:url("https://i.picsum.photos/id/44/200/300.jpg?hmac=XVdwVrJGHwXEzGWC6cZoztYj9nazQEbeWv9VrPmoqps")
+}
+
+h1::after {
+  content:" Added after";
+}
+
+::selection {
+  color:red;
+  background:yellow;
+} */
+
+/* .display {
+  border:1px solid black;
+  width:70%;
+  height:200px;
+  display:inline-block;
+}
+
+
+#div1 {
+  display:none; 
+  visibility:hidden;
+} */
+
+#parent {
+    /*   border: 1px solid red; */
+      width: 50%;
+      padding: 40px;
+      margin: 100px;
+    }
+    
+    #one {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      display: inline-block;
+      position:relative;
+      z-index:3;
+    }
+    
+    #two {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      display: inline-block;
+      position:relative;
+      top:50px;
+      left:-50px;
+      z-index:3;
+    }
+    
+    #three {
+      width: 100px;
+      height: 100px;
+      background-color: black;
+      display: inline-block;
+      position:relative;
+      top:100px;
+      left:-100px;
+      z-index:1;
+     
+    }
+    
+    #four {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      display: inline-block;
+      position:relative;
+      top:150px;
+      left:-150px;
+      z-index:1;
+    }
+    
